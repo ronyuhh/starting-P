@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My student portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>My Student Portfolio</h1>
+            <nav>
+                <a href="#about">About</a>|
+                <a href="#skills">Skills</a>|
+                <a href="#schedule">Schedule</a>|
+                <a href="#contact">Contact</a>|
+            </nav>
+        </header>
+        <main>
+            <section id =about>
+                <h2>About Me</h2>
+                <img src="images/profile.jpeg"
+                alt="Placeholder profile photo"
+                width="200" height="200">
+                <p>
+                    Hello! I am a student learning web development.
+                    I am interested in creating websites and learning 
+                    new programming skills.My goal is to become a 
+                    full-stack web developer and work on real-world projects.
+                </p>
+            </section>
+            
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <ul class="skills-grid">
+        <li class="skill-card">HTML</li>
+        <li class="skill-card">CSS</li>
+        <li class="skill-card">JavaScript</li>
+        <li class="skill-card">Problem Solving</li>
+        <li class="skill-card">Communication</li>
+        <li class="skill-card">Git and GitHub</li>
+    </ul>
+</section>
+
+            <section id="schedule">
+                <h2>My Learning Schedule</h2>
+                <table border="1">
+                    <caption>My Weekly Learning Plan</caption>
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Topic</th>
+                            <th>Study Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>HTML Practice</td>
+                            <td>2 Hours</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>CSS Fundamentals</td>
+                            <td>2 Hours</td>
+                        </tr>
+                        <tr>
+                            <td>Monday</td>
+                            <td>JavaScript Basics</td>
+                            <td>2 Hours</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <form action="#" method="post">
+                    <label for="name">Your Name</label>
+                    <br>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                    <br><br>
+                    <label for="email">Your Email</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                    <br><br>
+                    <label for="message">Your Message</label>
+                    <br>
+                    <textarea id="message" name="message" rows="5" cols="30" placeholder="Write your message here" required>
+                    </textarea>
+                    <br><br>
+                    <button type="submit">Send Message</button>
+                </form>            
+            </section>
+        </main>
+        <footer>
+            <p>Copyright 2026 My Student</p>
+        </footer>
+    </body>
+    <div class="project-card">
+    <span class="project-badge">NEW</span>
+    <h3>My First Project</h3>
+    <p>A website built with HTML and CSS.</p>
+</div>
+</html>

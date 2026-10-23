@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Personal Profile</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#goals">Goals</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am learning web development from the beginning.</p>
+            <p>My goal is to become a full-stack developer and work with clients.</p>
+
+            <img src="images/profile.jpg"
+                 alt="My profile photo"
+                 width="250">
+        </section>
+
+        <section id="skills">
+            <h2>Skills I Am Learning</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+            </ul>
+        </section>
+
+        <section id="goals">
+            <h2>My Goals</h2>
+            <ol>
+                <li>Learn to build websites.</li>
+                <li>Create real projects.</li>
+                <li>Start freelancing.</li>
+            </ol>
+        </section>
+
+        <section id="schedule">
+            <h2>My Learning Schedule</h2>
+            <table>
+                <caption>Web Development Progress</caption>
+                <thead>
+                    <tr>
+                        <th>Technology</th>
+                        <th>Status</th>
+                        <th>Goal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Learning</td>
+                        <td>Build webpage</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Learning</td>
+                        <td>Style webpage</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Learning</td>
+                        <td>Add interactivity</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>
+                Email:
+                <a href="mailto:example@email.com">Contact me</a>
+            </p>
+
+            <form>
+                <label for="name">Your name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your message:</label>
+                <textarea id="message" name="message"
+                          rows="4" required></textarea>
+
+                <button type="submit">Send message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>My first profile website.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
